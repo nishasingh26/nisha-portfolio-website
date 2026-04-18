@@ -1,0 +1,116 @@
+/* ===============================
+   TABLET (max-width: 1024px)
+================================ */
+@media screen and (max-width: 1024px) {
+
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-img img {
+    width: 220px;
+  }
+
+  .about-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .about-cards {
+    justify-content: center;
+  }
+
+  .skills-grid {
+    margin: auto;
+  }
+
+  .project-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+}
+
+
+/* ===============================
+   MOBILE (max-width: 768px)
+================================ */
+@media screen and (max-width: 768px) {
+
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .navbar nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .navbar a {
+    margin: 5px 10px;
+  }
+
+  .hero {
+    padding: 60px 5%;
+  }
+
+  .hero-text h1 {
+    font-size: 2.2rem;
+  }
+
+  .hero-img img {
+    width: 200px;
+  }
+
+  .section {
+    padding: 60px 5%;
+  }
+
+  .about-card {
+    width: 100%;
+    max-width: 250px;
+  }
+
+  .project-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-box {
+    flex-direction: column;
+    align-items: center;
+  }
+
+}
+
+
+/* ===============================
+   SMALL MOBILE (max-width: 480px)
+================================ */
+@media screen and (max-width: 480px) {
+
+  .hero-text h1 {
+    font-size: 1.8rem;
+  }
+
+  .hero-text h3 {
+    font-size: 1rem;
+  }
+
+  .btn {
+    display: block;
+    margin: 10px auto;
+  }
+
+  .hero-img img {
+    width: 160px;
+  }
+
+  .navbar a {
+    font-size: 0.9rem;
+  }
+
+}
